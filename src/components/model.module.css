@@ -1,0 +1,57 @@
+/* .err {
+  margin: auto;
+  width: 70%;
+  height: 300px;
+  background-color: white;
+  box-shadow: 2px 5px 5px 1px #888888;
+} */
+
+.title {
+  height: 50px;
+  background-color: rgb(92, 34, 146);
+  color: white;
+  display: flex;
+  justify-content: left;
+  padding-left: 2rem;
+  font-weight: 600;
+  align-items: center;
+}
+.message {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  background-color: white;
+  overflow: hidden;
+  height: 250px;
+}
+
+.btn {
+  height: 35px;
+  width: 15%;
+  background-color: rgb(160, 82, 233);
+  color: white;
+  border: 0px;
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top:3rem
+}

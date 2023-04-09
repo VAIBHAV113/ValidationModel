@@ -1,0 +1,14 @@
+.mapDiv{
+   border:1px solid black;
+   height:30px;
+   width:95%;
+   display: flex;
+   justify-content: left;
+   padding:1rem;
+   align-items: center;
+   margin-top:0.5rem;
+}
+
+.spanDiv{
+    margin-right: 1rem;
+}
